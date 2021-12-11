@@ -112,13 +112,34 @@
 
 // }
 // document.querySelector('.out-2').innerHTML = out1;
-
+//max
 let b = [4, 39, 87, 99, 01, 129, 57];
 let max = b[0];
-for (let i = 0; i < b.length; i++)
-{
+for (let i = 0; i < b.length; i++) {
   if (b[i] > max) {
     max = b[i];
   }
 }
 console.log("max: " + max);
+//_____________________________________________________-
+//sum
+
+const a = document.querySelector('p')
+
+// let z = [48, 900, 1000000, 1, 3, 5];
+// let sum = 0;
+// for (let i = 0; i < z.length; i++) {
+//   sum = sum + z[i];
+// }
+// console.log(a.innerHTML ="sum: " + sum);
+
+
+let  m = [5, 5, 10,[1,], 1];
+let sum = 0;
+for(let i = 0; i < m.length; i++) {
+  sum = sum + m[i];
+}
+
+console.log('sum:  ' + sum);
+console.log(m.length)
+console.log(m)
