@@ -118,7 +118,22 @@
 //________________cycle________________________________
 
 //for (старт; работаем_пока_верно, как_изменяется_счетчик,) 
-for (let i = 0; i < 5; i++){
-  console.log(i);
+// for (let i = 0; i < 5; i++){
+//   console.log(i);
 
+// }
+
+// for (let i = 0; i < 5; i++){
+
+//   console.log(i)
+//   if (i == 4 ) break;
+// }
+
+let div = document.querySelectorAll('div');
+console.log(div);
+//div.style.backgroundColor = 'red';
+for (let i = 0; i < div.length; i++){
+div[i].style.background = 'blue'
+console.log(div[i])
 }
+
