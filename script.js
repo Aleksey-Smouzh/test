@@ -56,17 +56,44 @@
 // });
 // console.log(arr.filter((item) => Boolean(item)));
 
+// console.log('Request data...')
+// setTimeout(()=>{
+//   console.log('Preparing data...')
+// const backendData = {
+//   serever: 'aws',
+//   port: 2000,
+//   status: 'working'
+// }
+// setTimeout(() =>{
+//   backendData.modified = true
+// console.log('data receivd', backendData)
+// }, 2000)
+// },2000)
 
-console.log('Request data...')
-setTimeout(()=>{
-  console.log('Preparing data...')
-const backendData = {
-  serever: 'aws',
-  port: 2000,
-  status: 'working'
-}
-setTimeout(() =>{
-  backendData.modified = true
-console.log('data receivd', backendData)
-}, 2000)
-},2000)
+// let a = "Jon";
+// let b = '37';
+// let z = 'man';
+// let c = ['Jon', '37', 'man'];
+// let d = [];
+
+// console.log(c);
+// console.log(c.length);
+
+// let animals = ['leon', '12', 100, "2,5"];
+// console.log(animals)
+
+// let man = ['Ivanov',' maile', 176, 93, 'Ivan'];
+// console.log(man[4]);
+// man[4] = "sergeq";
+// console.log(man[4]);
+const b = document.createElement('span');
+b.className = "tets";
+b.style.fontWeight = '600';
+b.style.fontSize = "25px"
+document.body.append(b)
+let a = [1, 2, 3, 4];
+let t = a[0];
+a[0] = a[a.length -1];
+a[a.length -1] = t;
+console.log(a.length);
+console.log(b.innerText = [a]);
