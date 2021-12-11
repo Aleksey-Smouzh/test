@@ -95,5 +95,14 @@ let a = [1, 2, 3, 4];
 let t = a[0];
 a[0] = a[a.length -1];
 a[a.length -1] = t;
-console.log(a.length);
+console.log(a);
 console.log(b.innerText = [a]);
+
+
+
+let out = '';
+for(let i = 0; i < a.length; i++) {
+  out += a[i] + '_ _';
+
+}
+document.querySelector('.out-1').innerHTML = out;
