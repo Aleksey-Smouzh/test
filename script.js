@@ -129,8 +129,8 @@
 //   if (i == 4 ) break;
 // }
 
-let div = document.querySelectorAll("div");
-console.log(div);
+//let div = document.querySelectorAll("div");
+//console.log(div);
 //div.style.backgroundColor = 'red';
 // for (let i = 0; i < div.length; i++) {
 //   div[i].style.background = "blue";
@@ -150,19 +150,26 @@ console.log(div);
 //   b[i].style.border = '5px solid black'
 // }
 
-document.querySelector("button").onclick = () => {
-  let r = document.querySelectorAll('input[type="radio"]');
-  console.log(r);
-  for (let i = 0; i < r.length; i++) {
-    if (r[i].checked) {
-      console.log(r[i].value);
+// //document.querySelector("button").onclick = () => {
+//   let r = document.querySelectorAll('input[type="radio"]');
+//   console.log(r);
+//   for (let i = 0; i < r.length; i++) {
+//     if (r[i].checked) {
+//       console.log(r[i].value);
+//     }
+//   }
+// };
+
+
+// let out = '';
+// for (let i = 0; i < 10; i++){
+//   out += i + ' ';
+// }
+//document.querySelector('out-1').innerHTML = "out";
+const out = document.querySelector('.out')
+for (let i = 0; i < 5; i++){
+    for (let k = 0; k < 10; k++){
+      out.innerHTML += k;
     }
-  }
-};
-
-
-let out = '';
-for (let i = 0; i < 10; i++){
-  out += i + ' ';
+  out.innerHTML += " ";
 }
-document.querySelector('out-1').innerHTML = "out";
