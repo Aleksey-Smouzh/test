@@ -173,12 +173,17 @@ const out = document.querySelector('.out')
 //     }
 //   out.innerHTML += " ";
 // }
-for (let i = 0; i < 10; i++){
-  //out.innerHTML += "3*" + i + "=" + (i*3) + "<br>";
-// out.innerHTML +=`3*${i}=${3 * i}<br>`;
+// for (let i = 0; i < 10; i++){
+//   //out.innerHTML += "3*" + i + "=" + (i*3) + "<br>";
+// // out.innerHTML +=`3*${i}=${3 * i}<br>`;
 
-for (let k = 0; k < 10; k++){
-  out.innerHTML +=`${i}*${k}=${k * i}<br>`;
-}
-out.innerHTML += '<hr>'
-}
+// for (let k = 0; k < 10; k++){
+//   out.innerHTML +=`${i}*${k}=${k * i}<br>`;
+// }
+// out.innerHTML += '<hr>'
+// }
+
+// async function f(){
+//   const result = aweit fatch();
+//   const json = awei result 
+// }
