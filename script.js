@@ -187,3 +187,11 @@ const out = document.querySelector('.out')
 //   const result = aweit fatch();
 //   const json = awei result 
 // }
+
+async function f() {
+  const result = await fetch ('https://random-data-api.com/api/users/random_user')
+  const json = await result.json();
+  console.log(json)
+}
+
+console.log(f())
